@@ -46,7 +46,7 @@
                   </div>
                 </p>
                 <p class="card-description">
-                  <form>
+                <form action="LoginWS" method="POST">
                     <div class="row">
                       <div class="col-md-12">
                         <div class="form-group">
@@ -59,7 +59,7 @@
                       <div class="col-md-12">
                         <div class="form-group">
                           <label>Senha</label>
-                          <input type="text" class="form-control" name="txtSenha" placeholder="Senha">
+                          <input type="password" class="form-control" name="txtSenha" placeholder="Senha">
                         </div>
                       </div>
                     </div>
